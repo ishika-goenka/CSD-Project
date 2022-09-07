@@ -1,0 +1,51 @@
+body,head{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: purple;
+}
+body{
+    background-color: #FAEBD7;
+}
+.flex-box {
+    display: flex;
+    background-color: #987654;
+  }
+.flex-box > div {
+    color: white;
+    margin: 20px;
+    padding: 3px;
+    font-size: 18px;
+  }
+.flex-box a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 25px 30px 25px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.about
+{
+    flex: 1 1 auto;
+}
+.area
+{
+    flex: 1 1 auto;
+}
+.acts
+{
+    flex: 1 1 auto;
+}
+.types
+{
+    flex: 1 1 auto;
+}
+.view
+{
+    flex: 1 1 auto;
+}
+.login
+{
+    flex: 1 1 auto;
+}
